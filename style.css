@@ -19,8 +19,7 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-.main-div {
-    
+.main {
   margin: auto;
   display: flex;
   flex-direction: column;
