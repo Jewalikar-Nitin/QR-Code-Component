@@ -41,12 +41,12 @@ body {
   text-align: center;
   padding-inline: 16px;
 }
-.text p:first-child {
+.text h1 {
   font-size: 22px;
   font-weight: 700;
   color: var(--Slate-900);
 }
-.text p:last-child {
+.text p {
   font-size: 15px;
   font-weight: 400;
   color: var(--Slate-500);
