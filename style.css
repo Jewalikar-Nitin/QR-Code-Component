@@ -50,7 +50,7 @@ body {
 .text p {
   font-size: 15px;
   font-weight: 400;
-  padding-block: 12px;
+  padding-inline: 12px;
   color: var(--Slate-500);
 }
 @media (max-width: 375px) {
