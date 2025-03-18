@@ -1,60 +1,59 @@
-:root{
---White: hsl(0, 0%, 100%);
---Slate-300: hsl(212, 45%, 89%);
---Slate-500: hsl(216, 15%, 48%);
---Slate-900: hsl(218, 44%, 22%);
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Slate-300: hsl(212, 45%, 89%);
+  --Slate-500: hsl(216, 15%, 48%);
+  --Slate-900: hsl(218, 44%, 22%);
 }
-body{
-    background-color: var(--Slate-300);
-    font-family: "Outfit", sans-serif;
-    align-content: center;
-    height: 100vh;
-    margin: 0;
+body {
+  background-color: var(--Slate-300);
+  font-family: "Outfit", sans-serif;
+  align-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-  .main-div {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.main-div {
+    
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
 }
 .qr-wrapper {
-    width: 320px;
-    height: 499px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 20px;
+  width: 320px;
+  height: 499px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+}
+.qr-code {
+  padding: 16px;
+}
+.text {
+  text-align: center;
+  padding-inline: 16px;
+}
+.text p:first-child {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--Slate-900);
+}
+.text p:last-child {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--Slate-500);
+}
+@media (max-width: 375px) {
+  .qr-wrapper {
+    width: 260px;
   }
-  .qr-code {
-    padding: 16px;
-  }
-  .text{
-    text-align: center;
-    padding-inline: 16px;
-  }
-  .text p:first-child{
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--Slate-900);
-  }
-  .text p:last-child{
-    font-size: 15px;
-    font-weight: 400;
-    color: var(--Slate-500);
-  }
-  @media (max-width:375px) {
-    .qr-wrapper {
-        width: 260px;
-    }
-  }
-
-  
+}
